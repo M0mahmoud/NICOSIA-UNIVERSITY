@@ -997,7 +997,7 @@ footer .content .box.logo p {
 
 footer .content .box h3 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 36px;
   color: #222529;
   margin-bottom: 15px;
@@ -1108,6 +1108,9 @@ footer .content .box li:not(:last-child) {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
+  }
+  .hero-images img:last-child {
+    left: 0;
   }
   /* Section */
   .features .boxes {
