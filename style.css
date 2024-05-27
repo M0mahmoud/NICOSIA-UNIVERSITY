@@ -302,6 +302,9 @@ body.no-scroll {
   justify-content: end;
 }
 
+.hero-images img:first-child {
+  width: 80%;
+}
 .hero-images img {
   width: 100%;
   object-fit: cover;
@@ -1016,6 +1019,10 @@ footer .content .box li:not(:last-child) {
 @media screen and (max-width: 991px) {
   .maintitle img {
     display: none;
+  }
+  /* Section */
+  .hero-images img:first-child {
+    width: 100%;
   }
   /* Section */
   .condition .degree {
